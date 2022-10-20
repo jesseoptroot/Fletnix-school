@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fletnix</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bodyprofiel">
+    <header>
+        <h1>Fletnix</h1>
+        <form action="GegevensWijzig.html">
+            <input type="submit" name="submit" value="Inloggen" id="inlogknop1" />
+        </form> 
+        <form action="GegevensWijzig.html">
+            <input type="submit" name="submit" value="Ingelogd als:" id="inlogknop2" />
+        </form>
+        <nav>
+            <a class="tablink" href="Home.html">Home</a>
+            <a class="tablink" href="FilmOverzicht.html">Film Overzicht</a>
+            <div class="dropdown">
+                <button class="dropbtn">Film
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="TokyoDrift.html">Tokyo drift</a>
+                    <a href="HarryPotter.html">Harry Potter</a>
+                    <a href="LordOfTheRings.html">Lord of the rings</a>
+                    <a href="Skyfall.html">Skyfall</a>
+                </div>
+            </div>
+            <a class="tablink" href="Afspelen.html">Afspelen</a>
+            <a class="tablink" href="OverOns.html">Over Ons</a>
+            <a class="tablink" href="Abonnement.html">Abonnement</a>
+            <a class="tablink" href="Profiel.html">Profiel</a>
+        </nav>
+    </header>
+
+    
+    <main>
+        <div> 
+            <h1>Voer Nieuwe Gegevens In</h1>
+            <img src="images/profilepic.png" alt="profielfoto">
+        	<div class="profielboxGegevens">
+                <form method="get">
+                <label for="naam">Naam:   </label>
+                <input type="tel" name="naam" id="naam"> <br>
+                <label for="email">E-mailadres: </label>
+                <input type="tel" name="email" id="email"> <br>
+                <label for="telefoon">Telefoon:  </label>
+                <input type="tel" name="telefoon" id="telefoon"> <br>
+                <label for="adres">Adres: </label>
+                <input type="tel" name="adres" id="adres"> <br>
+                <label for="postcode">Postcode: </label>
+                <input type="tel" name="postcode" id="postcode"> <br>
+
+                <label for="opmerkingen">Eventuele opmerkingen: </label>
+                <textarea name="opmerkingen" id="opmerkingen"> </textarea><br>
+                </form>
+                              
+                <form action="Profiel.html">
+                    <input type="submit" name="submit" value="Bevestigen Gegevens" id="submit" />
+                </form>
+            </div>
+
+
+        </div>
+    
+    </main>
+
+
+    <footer>
+    Made by Teun and Jesse
+    </footer>
+
+</body>
+
+</html>
